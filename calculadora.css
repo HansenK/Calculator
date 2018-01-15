@@ -1,0 +1,63 @@
+#resultado{
+    border: 3px solid darkslategrey;
+    width: 424px;
+    height: 60px;
+    margin: 0px auto; 
+}
+#resposta{
+    font-size: 60px;
+    text-align: right;
+    width: 424px;
+    height: 60px;
+    background-color: rgb(39, 167, 167);
+    border: none;
+}
+#corpo{
+    margin: 10px auto;
+    width: 430px;
+}
+.numeros{
+    border: none;
+    margin: 3px 1.5px;
+    width: 100px;
+    height: 100px;
+    font-size: 35px;
+    background-color: rgb(39, 167, 167);
+}
+#esquerda{
+    float: left;
+    width: 330px;
+    background-color: darkslategrey;
+}
+#direita{
+    float: right;
+    width: 100px;
+    height: 424px;
+    background-color: darkslategray;
+}
+.op{
+    border: none;
+    margin: 3px 1.5px;
+    height: 78.8px;
+    width: 96px;
+    font-size: 35px;
+    background-color: rgb(39, 167, 167);
+}
+button:hover{
+    background-color: darkslategray;
+    border: 3px solid rgb(39, 167, 167);
+}
+button:focus{
+    outline: 0;
+}
+input::-webkit-input-placeholder{
+    color: black
+}
+input:focus{
+    outline: 0;
+}
+input::selection
+{
+    background-color: darkslategray;
+    color: rgb(39, 167, 167);
+}
