@@ -1,9 +1,3 @@
-document.querySelector('body').addEventListener('keydown', function(event) {
- 
-    alert( event.keyCode );
- 
-});
-
 function limpar()
 {
     document.getElementById("resposta").value='';
